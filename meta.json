@@ -52,5 +52,6 @@
             "title":"Message"
         }
     ],
+    "icon": "bitbucket",
     "title": "Bitbucket Get Commits" /* Required.A display name for the module */
 }
