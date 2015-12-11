@@ -4,23 +4,53 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "owner",
+            "title":"Owner"
+        },
+        {
+            "id": "repo_slug",
+            "title":"Repo Slug"
+        },
+        {
+            "id": "branchortak",
+            "title":"Branch or Tag"
+        },
+        {
+            "id": "include",
+            "title":"Include"
+        },
+        {
+            "id": "exclude",
+            "title":"Exclude"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "html",
+            "title":"URL"
+        },
+        {
+            "id": "repository",
+            "title":"Repo Name"
+        },
+        {
+            "id": "author_name",
+            "title":"Username"
+        },
+        {
+            "id": "author_display_name",
+            "title":"Name"
+        },
+        {
+            "id": "date",
+            "title":"Commit Date"
+        },
+        {
+            "id": "message",
+            "title":"Message"
         }
-      */
     ],
     "title": "Bitbucket Get Commits" /* Required.A display name for the module */
 }
