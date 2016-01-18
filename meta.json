@@ -52,6 +52,9 @@
             "title":"Message"
         }
     ],
+    "providers": [{
+        "name": "bitbucket"
+    }],
     "icon": "bitbucket",
     "title": "Bitbucket Get Commits" /* Required.A display name for the module */
 }
