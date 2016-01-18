@@ -62,10 +62,6 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-        //        name / Name
-        //    is_private / Private?
-        //description / Description
-        //scm / SCM
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
                 owner: 'owner',
                 repo_slug: 'repo-slug',
